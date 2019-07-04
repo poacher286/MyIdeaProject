@@ -1,0 +1,47 @@
+---ANNOTATION---
+1.Annotation are introduced in jdk1.5
+2.Annotation are used for 
+-describing package 
+-class 
+-interface 
+-enum 
+-Annotation 
+-field 
+-method  
+-constructor 
+-argument and 
+-local variables
+3.Annotation are only used for description purpose
+4.Annotation are verified from compiler not only compiling 
+5.it is transferring to .class file
+6.loading to the memory while running
+7.to provide description we can use java.comments
+8.Annotation can become member of java file like interface enum 
+9.while compiling .class file generating to annotation also
+10.by default annotation are 100% abstract 
+11.Annotation are  not for any logic
+12.it can not proccessing logic is printed to Annotation its only for providing description
+13.Annotation are develop 2 @ interface
+14.inside Annotation we can develop only method declaration
+
+
+->Annotation can become a member of the java file
+->while compiling .class file is generating also
+->while using annottion we can provide description 
+->annotation should contain only method declaration with a specific return type value
+->compiling we get o/p only we not get any annotation declartion
+->
+
+
+
+
+Rules for annotation	
+1.return type should not be void
+  we should not keep a method declaration as void
+2.return type can not be any wrapper also
+	like Integer Byte etc
+3.Annotation method return type should be valid return type
+	All premitives
+	String
+	Class
+	Array of Above

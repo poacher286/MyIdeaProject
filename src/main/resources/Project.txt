@@ -1,0 +1,48 @@
+Real Time Development
+
+Git global setup
+
+git config --global user.name "Buland Sahu"
+git config --global user.email "bulandsahu50@gmail.com"
+
+Create a new repository
+
+git clone https://gitlab.com/poacher286/my-project1.git
+cd my-project1
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/poacher286/my-project1.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+
+cd existing_repo
+git remote add origin https://gitlab.com/poacher286/my-project1.git
+git push -u origin --all
+git push -u origin --tags
+
+
+
+C:\Users\Buland>git config --global user.name "Buland Sahu"
+
+C:\Users\Buland>git config --global user.email "bulandsahu50@gmail.com"
+
+C:\Users\Buland>git clone https://gitlab.com/poacher286/my-project1.git
+Cloning into 'my-project1'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\Buland>cd my-project1
+
+C:\Users\Buland\my-project1>git add .
+
+
+git checkout test-branch

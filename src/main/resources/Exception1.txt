@@ -1,0 +1,68 @@
+	+---------------+
+	|  Throwable	|
+	+---------------+
+	|		|
++---------+		+-------+
+|Exception|		| Error	|
++---------+		+-------+
+	|		    ^
++-----------------+	    |	+-------+
+|RuntimeException |	    |---| SOFE	| StackOverFlowError
++-----------------+	    |	+-------+
+  ^	+-----+ 	    |	+-------+
+  |-----| AE  |		    |---| OME	| OutOfMemoryError
+  |	+-----+ 	    |	+-------+
++----+	+-----+		    |	+-------+
+|CNFE|	| NFE |		    |---| NSME	| NoSuchMethodError
++----+	+-----+		    | 	+-------+
++----+	+-----+		    |	+-------+
+|IOE |	| NPE |		    |---| NCDFE	| NoClassDefFoundError
++----+	+-----+		    |	+-------+
++----+	+-----+		    |	+-------+
+|FNFE|	|AIOBE|		    |---| AE	| AssersionError
++----+	+-----+			+-------+
++----+	+-----+
+|CNSE|	|CCE  |	
++----+	+-----+
++----+
+| IE |
++----+
++----+
+| PE |
++----+
++----+
+|SQLE|
++----+
+
+CNFE - ClassNotFoundException
+IOE - IOException
+FNSE - FileNotSupportedException
+CNSE - CloneNotSupportedException
+PE - ParseException
+IE - InterruptedException
+SQLE - SQLException
+
+Checked Exception-
+Compiler will be looking for try catch or throws in case of Checked 
+Checked statement compiler verify wheather try catch is there or not 
+
+Unchecked Exception-
+Compiler not bothering about try catch or throws.
+->Error and Runtime exception type both comes under Unchecked Exception.
+->All subclass of Error and Runtime Exception are under Uncheked
+
+Throwable and Exception
+Sometimes both are acting as a Checked and sometimes both are acting as Unchecked
+
+
+1.CNFE - ClassNotFoundException ==> Class.forName("")
+
+2.CNSE - CloneNotSupportedException ==> clone() inside object class that clone() req CloneNotSupportedException
+
+3.IE - InterruptedException ==> sleep() , join() , wait()
+
+4.IOE - IOException / FileNotFoundException ==> any kind of IO Operation
+
+5.PE - ParseException ==> parse() DateFormat , NumberFormat
+
+6.SQLE - SQLException ==> any DB Operation 

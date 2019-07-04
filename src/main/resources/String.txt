@@ -1,0 +1,122 @@
+To represent multiple character 
+1.CharArray
+2.String
+3.StringBuffer
+4.StringBuilder
+
+1.CharArray
+it is very difficult to handle Array
+
+----------------------------------------------------------
+--String--
+-----------------------------------------------------------
+String class is the FINAL class in java.lang package
+1.FINAL
+2.java.lang
+3.toString()
+4.equals()
+5.hashCode()
+
+-->in String class, Object class toString() method got overrided
+-->in String class, Object class equals() method got overrided
+-->in String class, Object class hashCode() method got overrided
+
+6.we can print String content with SOP.
+7.we can evaluate two Strings based on the content.
+8.we can create String object without new operator.
+9.we can add anything to the String by using + operator.
+10.String class implementing Comparable interface.
+  -because of this String Objects are sorted.
+11.String class implementing Serializable interface.
+  -because of this we can serialize String object into persisting media
+	- either file system / media.
+12.String objects are IMMUTABLE.
+	-we can NOT change once we create 
+13.String objects are NOT Synchronized
+
+
+--StringBuffer--
+1.StringBuffer concrete class in java.lang package
+2.It is a FINAL class we can NOT develop a subclass to StringBuffer
+3.Inside is StringBuffer Object class toString() got overrided
+4.Inside is StringBuffer Object class equals() and hashCode() NOT overrided
+5.StringBuffer implementing Serializable interface 
+	because of this we can serialize StringBuffer objects into the persisting variable / media
+6.StringBuffer NOT implementing Comparable interface
+7.StringBuffer objects are MUTABLE (changeable)
+	that is why we are NOT assigning sb = sb.append("abc")
+	same obj the "abc" is assigning
+8.StringBuffer is a Synchronized one
+	we can use in MultiThreaded environment
+9.StringBuffer internally maintaining a Buffer with default capacity as 16 Character
+
+
+
+
+--StringBuilder--
+all the methods and functionality in StringBuffer are there all are same
+only difference is that StringBuffer is Synchronized but StringBuilder is NON Synchronized
+StringBuilder and StringBuffer both have many inbuilt methods as compare to String
+
+
+//Difference between String and StringBuffer
+1.
+->String objects are IMMUTABLE 
+->StringBuffer objects are MUTABLE
+	
+2.
+->inside a String class equals() and hashCode() method both got overrided
+->but inside StringBuffer equals() and hashCode() method are NOT got overrided
+
+3.
+->duplication can be identified based on the content of the String
+->in case of StringBuffer we can NOT identified duplicates 
+	even though 2 String are having same content
+
+4.
+->String class implementing Comparable interface
+->StringBuffer NOT implementing Comparable interface
+because of this we can achieve sorting in case of String objects 
+we can NOT achieve sorting in case of StringBuffer objects
+
+5.
+we can create  a String object without new operator
+whereas in StringBuffer we have to use new operator
+
+6.
+we can add any thing to String by using + operator
+in StringBuffer we can NOT use + operator
+
+7.
+String is NOT using any Buffer
+but in StringBuffer using Buffer internally 
+
+8.
+String is NON Synchronized
+StringBuffer is Synchronized
+
+9.
+inside String there is NO reverse() and delete()
+inside StringBuffer there is reverse() and delete()
+
+
+==========================================================
+%[arg_index$][flags][width][.precision]conversion 
+					char type
+flags
+------------
+- left aligment
++ explicit +ve sign to the +ve number
+0 padding with 0 for all left 
+	un occupied places
+( to enclose -ve number in the bracket
+, to grouping digits in a number
+
+conversion char type
+------------------
+byte , short , int , long ==> d
+float , double ==> f
+char ==> c
+boolean ==> b
+String ==> s
+============================================================

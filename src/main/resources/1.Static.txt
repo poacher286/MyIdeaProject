@@ -1,0 +1,50 @@
+----CLASS----
+A class is a group of objects which have common properties. 
+It is a template or blueprint from which objects are created. It is a logical entity. 
+
+A class in Java can contain:
+
+1.fields
+2.methods
+3.constructors
+4.blocks
+5.nested class and interface
+
+**when class is created every static members are loaded in the memory**
+
+Object Definitions:
+
+Object is a real world entity.
+Object is a run time entity.
+Object is an entity which has state and behavior.
+Object is an instance of a class.
+
+new keyword in Java-
+The new keyword is used to allocate memory at run time.
+All objects get memory in Heap memory area.**
+
+**object can be created in any method
+the total memory can b divided into two parts:
+stack and heap**
+heap memory is for storing purpose
+objects are created in the heap memory and
+references are created in the stack memory.
+
+one object can have any number of reference variable.
+same object can be referred by multiple reference variable.
+
+**when object is created every non-static members are loaded in the memory**
+
+default reference variable available with a non static .
+
+----STATIC----
+
+static member can be used anywhere in the class
+
+non static member can not be used inside static method
+
+static members are loading to the memory at the time of class loading***
+
+we can not use any non static member in the main method straight away.
+
+

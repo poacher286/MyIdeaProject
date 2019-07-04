@@ -1,0 +1,43 @@
+there are multiple thread which are accessing by one object
+we can not guarantee for particular usage
+ex- ATM
+at any time only one customer is using ATM
+an obj is sharing to multiple Thread , but any time 1 Thread can share 1 object
+if one object is sharing to multiple Thread
+Thread should access object by one by one not all together
+In order to maintain 1 Thread at any time we required Synchronization 
+
+24-10-2017
+wait()
+notify()
+notifyAll()
+these 3 methods are available inside Object class
+methods od Object class can be inheriting to every class
+Object class methods inheriting to any class
+
+While creating an object to any class wait() , notify() , notifyAll() available
+these 3 methods are available to every class 
+these are non static methods in Object class 
+while object is creating every non static methods are loading to the  memory
+->these are non synchronized method but a Thread should required object lock of same object
+->we should call these 3 methods inside synchronized methods or block
+->if multiple Thread are waiting inside wait() then we req notifyAll()
+
+25-10-2017
+creating a Thread is a very expensive operation
+lot of system resources are involving while creating and starting a Thread
+after creating a Thread try to use same Thread again and again rather than throwing 
+after using 1st time save it on other place and use it again and again
+after creating a Thread keep using same Thread again and again
+we have to store a Thread inside a container whenever we are getting 2nd time storage again store in the container
+
+if multiple customer required services of one Thread type
+in one project multiple customer required task of one thread type
+whenever we are developing a web application that web application can be accessible by world wide
+
+multiple customers required one Thread type service
+then single Thread can not be suitable
+we required multiple Thread
+multiple Thread which are performing same type of activity inside a container
+customer will going to the container ,  getting one Thread  , once usage got over , again safely store in the container
+pool of threads in one container it is called as a Thread

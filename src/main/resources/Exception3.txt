@@ -1,0 +1,11 @@
+--throw--
+throw keyword is used for rising the exception or error object explicitly
+even though no abnormal keyword rising the exception object use throw keyword
+
+2 condition have to follow w.r.t. throw keyword
+1.for the throw keyword we have to specify an object of throwable class
+2.always throw  statement is the last statement in the current class
+ex- break ,  continue ,  return
+
+-we can rise Error object explicitly
+-we can describe something under ("") 

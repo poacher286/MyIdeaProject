@@ -1,0 +1,39 @@
+--Assersion--
+->Assersion are introduced in jdk1.4
+->assert is the keyword from jdk1.4
+->Assersions are used for rising AssersionError whenever buissness condition is failing for a particular group of users
+->It is vey similar to throw keyword
+->in Exception handling we have seen throw keyword usage
+	same functionality is used with little changes
+
+there are 2 type of assert statement available
+1.VSA
+-------
+assert boolean_result;
+
+2.SA
+-------
+assert boolean_result : some_msg;
+
+by default both the assret statements are not executing 
+in order to exceute assert statements explicitly we have to supply VM (Virtual Machine) argument
+-ea	(or)	-enableassertions
+we can disable assertions explicitly by another VM arg
+-da	(or)	-disableassertions
+
+enableling or disasbleing assertions are in 3 different places
+1.Execution wise
+	-ea
+	-da
+
+2.Package wise
+	-ea:package_name...
+	-da:package_name...
+
+3.Class wise
+	-ea:com.lara.Manager
+	-da:com.lara.Manager
+ 
+ we can specify any class name in case of throw but we can not rise any class name
+ throw keyword always last statement in the current block
+ but assert is assign anywhere in the class

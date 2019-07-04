@@ -1,0 +1,5 @@
+till jdk1.7
+interface containing only constant and abstract
+from jdk1.8
+we can add static methods static defined method and default defined method in interface
+static and default definition inside interface - 

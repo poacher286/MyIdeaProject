@@ -1,0 +1,15 @@
+----Enums----
+introduced in jdk1.5
+enums can become a member of a java file.
+while compiling class file generating enum also.
+enums are mainly for grouping similar kind of fixed number of ordered constants.
+every constants should be represented to valid java identifier.
+all the constants should be unique.
+every constants should be separated with a coma(,) as a separator.
+every constants having a unique index starting from zero.
+inside enum not only constants we can encorporate attributes , constructors and methods. 
+enum can become a member of the class.
+enum is coming under derived data type.
+
+empty enum can be possible
+Empty enum can be used for data type purpose

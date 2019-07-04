@@ -1,0 +1,46 @@
+--MULTITHREADING--
+
+Multasking
+1.Multiprocessing
+2.Multithreading
+
+Multiprocessing
+Multiple task simultaneously through multiple process
+heavy weight wrt processor
+ex Operating System
+
+Multithreading
+producing output simultaneously under one process
+light weight wrt processor
+ex eclipse , video file
+
+In any programming language 2 types of thread are providing
+1.User Thread
+2.Daemon Thread
+
+1.User Thread
+It is not depending on its parent
+executing without considering its parent
+no matter parent is under execution or not
+
+2.Daemon Thread
+always depending on parent
+whenever parent is leaving it is also leaving
+without worrying about its execution
+
+whenever running java command 3 threads are creating
+1.Thread Scheduler
+2.Garbage Collector
+3.Main
+
+1.Thread Scheduler
+Scheduling available CPU type to all the registered Thread
+
+2.Garbage Collector
+removing abandant objects from memory by calling finalize method
+
+3.Main
+Main Thread is responsible to execute main method
+
+->Garbage Collector and main both are registering in the Thread Scheduler 
+afterwords Main threads is allocating to execute main method
