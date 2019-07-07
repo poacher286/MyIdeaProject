@@ -1,8 +1,13 @@
 package com.laraclasses.toppics.dev_Generics;
 
-interface A < T >
+/**
+ * If reference type is wildcard super something
+ * generic data type can not be replaced for primitives
+ * @param <T>
+ */
+interface A57 < T >
 {
-	T var;
+//	T var;
 }
 class M57
 {
@@ -12,14 +17,14 @@ class M57
 	}
 }
 
-/*
-if refence type is wildcard super something 
-generic data type can not be replaced for premitives
+/**
+if reference type is wildcard super something
+generic data type can not be replaced for primitives
 CTE
 
 generic datatype can not be put with static members
 generics are mainly for changing one data type to another
-Static memebers are not the members of Objects
+Static members are not the members of Objects
 if member not calling by itself how we can call that is why we can not apply 
 generic to static
 ref --> M19 

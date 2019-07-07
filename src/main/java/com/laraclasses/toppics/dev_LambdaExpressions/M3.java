@@ -1,26 +1,23 @@
 package com.laraclasses.toppics.dev_LambdaExpressions;
 
-interface A //A is functional interface
-{
-	void test();
+//A3 is functional interface
+interface A3 {
+    void test();
 }
 
-class M3
-{
-	
-	public static void main(String[] args) 
-	{
-		class B implements A //local inner class we can use in the main method
-		{
-			public void test()
-			{
-			System.out.println("from test");
-			}
-		}
-		B b1 = new B();
-		b1.test();
-		System.out.println("done!");
-	}
+public class M3 {
+
+    public static void main(String[] args) {
+        //local inner class we can use in the main method
+        class B implements A3 {
+            public void test() {
+                System.out.println("from test");
+            }
+        }
+        B b1 = new B();
+        b1.test();
+        System.out.println("done!");
+    }
 }
 
 

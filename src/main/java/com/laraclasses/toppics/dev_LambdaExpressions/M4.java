@@ -1,17 +1,17 @@
 package com.laraclasses.toppics.dev_LambdaExpressions;
 
-interface A //A is functional interface
+interface A4 //A4 is functional interface
 {
 	void test();
 }
 
-class M4
+public class M4
 {
 	
 	public static void main(String[] args) 
 	{
-		 A a1 = new A() //anonymous inner class we can use in the main method
-		{
+		//anonymous inner class we can use in the main method
+		A4 a1 = new A4() {
 			public void test()
 			{
 			System.out.println("from test");

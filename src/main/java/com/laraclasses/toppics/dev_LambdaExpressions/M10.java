@@ -24,6 +24,6 @@ from test: 10
 from test: abc
 done!
 
-single interfce methods--lambda expression
+single interface methods--lambda expression
 
 */

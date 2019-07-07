@@ -1,6 +1,6 @@
 package com.laraclasses.toppics.dev_LambdaExpressions;
 
-interface A //A is functional interface
+interface A6 //A6 is functional interface
 {
 	void test();
 }
@@ -10,7 +10,7 @@ class M6
 	
 	public static void main(String[] args) 
 	{
-		 A a1 = () -> //lambda expression
+		 A6 a1 = () -> //lambda expression
 						{
 						System.out.println("from test"); 
 						System.out.println("from test"); 
