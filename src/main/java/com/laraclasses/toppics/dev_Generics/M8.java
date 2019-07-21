@@ -1,6 +1,6 @@
 package com.laraclasses.toppics.dev_Generics;
 
-class A
+class A8
 {
 	String test()
 	{
@@ -11,8 +11,8 @@ class M8
 {
 	public static void main(String[] args)
 	{
-		A a1 = new A();
-		A a2 = new A();
+		A8 a1 = new A8();
+		A8 a2 = new A8();
 		String s1 = a1.test();
 		String s2 = a2.test();
 		System.out.println("done");

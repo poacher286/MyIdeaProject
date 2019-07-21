@@ -1,6 +1,6 @@
 package com.laraclasses.toppics.dev_Generics;
 
-class A < X extends Number>
+class A20 < X extends Number>
 {
 	X obj;
 }
@@ -8,13 +8,13 @@ class M20
 {
 	public static void main(String[] args)
 	{
-		A<Number> a1 = new A<Number>();
-		A<Byte> a2 = new A<Byte>();
-		A<Short> a3 = new A<Short>();
-		A<Integer> a4 = new A<Integer>();
-		A<Long> a5 = new A<Long>();
-		A<Float> a6 = new A<Float>();
-		A<Double> a7 = new A<Double>();
+		A20<Number> a1 = new A20<Number>();
+		A20<Byte> a2 = new A20<Byte>();
+		A20<Short> a3 = new A20<Short>();
+		A20<Integer> a4 = new A20<Integer>();
+		A20<Long> a5 = new A20<Long>();
+		A20<Float> a6 = new A20<Float>();
+		A20<Double> a7 = new A20<Double>();
 		
 		System.out.println("Done");
 	}
@@ -24,6 +24,6 @@ class M20
 object type is always R type or subclass to R
 not P , Q type
 
-Number is subclass to Object (Wraper Class)
+Number is subclass to Object (Wrapper Class)
 Inside Number these are Subclasses
 */

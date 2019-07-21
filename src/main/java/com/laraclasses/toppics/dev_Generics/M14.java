@@ -1,6 +1,6 @@
 package com.laraclasses.toppics.dev_Generics;
 
-class A <T , U>
+class A14 <T , U>
 {
 	T obj1;
 	U obj2;
@@ -17,10 +17,10 @@ class M14
 {
 	public static void main(String[] args)
 	{
-		A<Integer , String> a1 = new A<Integer , String>();
-		A<String , String> a2 = new A<String , String>();
-		A<Integer , Integer> a3 = new A<Integer , Integer>();
-		A<String , Integer> a4 = new A<String , Integer>();
+		A14<Integer , String> a1 = new A14<Integer , String>();
+		A14<String , String> a2 = new A14<String , String>();
+		A14<Integer , Integer> a3 = new A14<Integer , Integer>();
+		A14<String , Integer> a4 = new A14<String , Integer>();
 	
 		a1.obj1 = 10;
 		a1.obj2 = "String1";
@@ -38,7 +38,7 @@ class M14
 		a1.test1(50);
 		String s1 = a1.test2();
 
-		//<Srting , String>
+		//<String , String>
 		a2.test1("String5");
 		String s2 = a2.test2();
 		

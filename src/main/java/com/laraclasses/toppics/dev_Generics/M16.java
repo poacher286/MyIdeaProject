@@ -1,12 +1,12 @@
 package com.laraclasses.toppics.dev_Generics;
 
-interface A < X >
+interface A16 < X >
 {
 	X test1();
 	void test2(X x1);
 	void test3(X x1, X x2);
 }
-class B implements A <String>
+class B implements A16 <String>
 {
 	public String test1()
 	{
@@ -24,7 +24,7 @@ class B implements A <String>
 		//return null;
 	}
 }
-class C implements A <Integer>
+class C implements A16 <Integer>
 {
 	public Integer test1()
 	{

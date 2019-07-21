@@ -1,6 +1,6 @@
 package com.laraclasses.toppics.dev_Generics;
 
-class A < X >  //identifier can chose inside angle bracket
+class A13 < X >  //identifier can chose inside angle bracket
 {
 	X obj;
 	X test()
@@ -12,9 +12,9 @@ class M13
 {
 	public static void main(String[] args)
 	{
-		A<Integer> a1 = new A<Integer>();
-		A<String> a2 = new A<String>();
-		A<Double> a3 = new A<Double>();
+		A13<Integer> a1 = new A13<Integer>();
+		A13<String> a2 = new A13<String>();
+		A13<Double> a3 = new A13<Double>();
 		Integer obj1 = a1.test();
 		String obj2 = a2.test();
 		Double obj3 = a3.test();

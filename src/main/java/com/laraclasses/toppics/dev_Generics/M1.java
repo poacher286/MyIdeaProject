@@ -10,7 +10,7 @@ public class M1 {
         A1 a1 = new A1();
         a1.i = 10;
 
-        A a2 = new A();
+        A1 a2 = new A1();
         a2.i = 20;
         System.out.println("Hello World!");
     }

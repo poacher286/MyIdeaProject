@@ -1,8 +1,8 @@
 package com.laraclasses.toppics.dev_Generics;
 
-class A
+class A10
 {
-	A(String s1)
+	A10(String s1)
 	{
 		
 	}
@@ -11,16 +11,16 @@ class M10
 {
 	public static void main(String[] args)
 	{
-		A a1 = new A("Srting1");
-		A a2 = new A("String2");
-		A a3 = new A("String3");
+		A10 a1 = new A10("Srting1");
+		A10 a2 = new A10("String2");
+		A10 a3 = new A10("String3");
 		System.out.println("Done");
 	}
 }
 /*
 Constructor data type is String only
 that data type can be
-Attribute data type 
+Attribute data type
 Argument
 return type
 constructor Argument data type

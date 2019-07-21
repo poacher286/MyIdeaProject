@@ -1,5 +1,8 @@
 package com.laraclasses.toppics.dev_Annotation;
 
+/**
+ *
+ */
 @interface A
 {
 	String someDesc();	

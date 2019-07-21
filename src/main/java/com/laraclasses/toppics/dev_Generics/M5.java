@@ -1,19 +1,20 @@
 package com.laraclasses.toppics.dev_Generics;
 
-class A
+class A5
 {
 	void test(String args)
 	{
 
 	}
 }
-class M5
+
+public class M5
 {
 	public static void main(String[] args)
 	{
-		A a1 = new A();
-		A a2 = new A();
-		A a3 = new A();
+		A5 a1 = new A5();
+		A5 a2 = new A5();
+		A5 a3 = new A5();
 		a1.test("Hello");
 		a2.test("world");
 		a3.test("done");

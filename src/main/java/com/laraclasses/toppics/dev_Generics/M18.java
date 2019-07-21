@@ -1,6 +1,6 @@
 package com.laraclasses.toppics.dev_Generics;
 
-class A < X extends R>
+class A18 < X extends R>
 {
 	X obj;
 }
@@ -8,9 +8,9 @@ class M18
 {
 	public static void main(String[] args)
 	{
-		A<R> a1 = new A<R>();
-		A<P> a2 = new A<P>();
-		A<Q> a3 = new A<Q>();
+		A18<R> a1 = new A18<R>();
+//		A18<P> a2 = new A18<P>();
+//		A18<Q> a3 = new A18<Q>();
 		
 		System.out.println("Done");
 	}
