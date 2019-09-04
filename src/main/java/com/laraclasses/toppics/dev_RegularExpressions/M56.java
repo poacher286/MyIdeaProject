@@ -8,7 +8,6 @@ class M56
 	{
 		System.out.println(TEST);
 		String src = "Hello to All";
-		int i = 1234;
 		String exp = "l";
 		Pattern p1 = Pattern.compile(exp);
 		Matcher m1 = p1.matcher(src);

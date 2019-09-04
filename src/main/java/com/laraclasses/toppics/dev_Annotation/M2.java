@@ -1,14 +1,14 @@
 package com.laraclasses.toppics.dev_Annotation;
 
-@interface A
+@interface A2
 {
 	int someDesc();	
 }
 
-@A(someDesc = 100)
+@A2(someDesc = 100)
 class M2
 {
-	@A(someDesc = 100)
+	@A2(someDesc = 100)
 	public static void main(String[] args) 
 	{
 		System.out.println("Hello");

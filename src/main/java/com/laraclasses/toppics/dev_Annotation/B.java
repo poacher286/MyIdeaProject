@@ -2,7 +2,7 @@ package com.laraclasses.toppics.dev_Annotation;
 
 @interface B
 {
-	void test();
+//	void test();
 }
 /*
 Rules for annotation	

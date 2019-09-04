@@ -2,7 +2,7 @@ package com.laraclasses.toppics.dev_Annotation;
 
 @interface C
 {
-	Integer test();
+//	Integer test();
 }
 /*
 Rules for annotation	

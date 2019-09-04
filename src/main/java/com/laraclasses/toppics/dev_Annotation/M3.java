@@ -1,6 +1,6 @@
 package com.laraclasses.toppics.dev_Annotation;
 
-@interface A
+@interface A3
 {
 	int version();
 	String author();	
